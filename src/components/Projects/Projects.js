@@ -21,14 +21,30 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+        <Col md={4} className="project-card">
+  <ProjectCard
+    imgPath={chatify}
+    isBlog={false}
+    title="Ecommerce (BACKEND)"
+    description={`
+    ● Tech Stack: NodeJs, Express, and MongoDB and AWS
+    ● The user can register and login with authentication implemented using JWT
+    ● User can add product in the cart and execute order with ease.
+    ● AWS S3 is used for storage of user and product image.
+    `}
+    ghLink="https://github.com/chandracec/Products_Management"
+     
+  />
+</Col> 
         <Col md={4} className="project-card">
   <ProjectCard
     imgPath={chatify}
     isBlog={false}
     title="Book Management System (BACKEND)"
     description={`
-    ●Tech Stack: NodeJs, Express, and MongoDB.
-    ●The user can register and login with authentication implemented using JWT
+    ● Tech Stack: NodeJs, Express, and MongoDB.
+    ● The user can register and login with authentication implemented using JWT
       and can create book entries for which other users can give their reviews.
     `}
     ghLink="https://github.com/chandracec/Book_Management"
