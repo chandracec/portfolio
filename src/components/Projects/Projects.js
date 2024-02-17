@@ -26,17 +26,36 @@ function Projects() {
   <ProjectCard
     imgPath={chatify}
     isBlog={false}
-    title="Ecommerce (BACKEND)"
+    title="TrendyKart Ecommerce -MERN"
     description={`
-    ● Tech Stack: NodeJs, Express, and MongoDB and AWS
-    ● The user can register and login with authentication implemented using JWT
-    ● User can add product in the cart and execute order with ease.
-    ● AWS S3 is used for storage of user and product image.
+    Frontend: React, Vite
+    Backend: Node.js, Express.js
+    Database: MongoDB 
+    State Management: Context API
+    Authentication: JWT (JSON Web Tokens) and OTP Using Nodemailer
+    Payment Integration: Braintree
+    Documentation:SwaggerUI
+    Containerized Using Docker
     `}
-    ghLink="https://github.com/chandracec/Products_Management"
+    ghLink="https://github.com/chandracec/Ecommerce"
      
   />
 </Col> 
+<Col md={4} className="project-card">
+  <ProjectCard
+    imgPath={bitsOfCode}
+    isBlog={false}
+    title="Email OTP sender Package"
+    description={`
+    Dependency: Nodemailer
+    ● The package facilitates sending of one-time passwords (OTPs) via email. 
+    ● Optional parameters are available to customize the mail and OTP length
+    ● Seamless operation without worrying about handling the complexities of OTP delivery via email, sendOtp simplifies the integration of secure authentication processes into your application flow. 
+    `}
+    ghLink="https://www.npmjs.com/package/email-otp-send"
+     
+  />
+</Col>
         <Col md={4} className="project-card">
   <ProjectCard
     imgPath={chatify}
