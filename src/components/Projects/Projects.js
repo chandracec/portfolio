@@ -28,14 +28,14 @@ function Projects() {
     isBlog={false}
     title="TrendyKart Ecommerce -MERN"
     description={`
-    Frontend: React, Vite
-    Backend: Node.js, Express.js
-    Database: MongoDB 
-    State Management: Context API
-    Authentication: JWT (JSON Web Tokens) and OTP Using Nodemailer
-    Payment Integration: Braintree
-    Documentation:SwaggerUI
-    Containerized Using Docker
+    ● Frontend: React, Vite
+    ● Backend: Node.js, Express.js
+    ● Database: MongoDB 
+    ● State Management: Context API
+    ● Authentication: JWT (JSON Web Tokens) and OTP Using Nodemailer
+    ● Payment Integration: Braintree
+    ● Documentation:SwaggerUI
+    ● Containerized Using Docker
     `}
     ghLink="https://github.com/chandracec/Ecommerce"
      
